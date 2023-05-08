@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Instrument+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fad961;
+  background-image: linear-gradient(
+    90deg,
+    #fad961 0%,
+    #ffffff 50%,
+    #ffaf72 100%
+  );
+}
+
+header {
+  text-align: center;
+}
+header nav {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.section-about {
+  height: 640px;
+  background: url(../utils/pexels-magda-ehlers-1586947.jpg) center/contain
+    no-repeat;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section-about__block {
+  width: 420px;
+  height: 190px;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  opacity: 0.65;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  padding: 15px;
+}
+
+.section-about__border {
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.section-about__border h1 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.section-about__border p {
+  text-align: justify;
+  padding: 0.5rem 1rem;
+}
+
+.section-description__icon-box {
+    text-align: center;
+}
+
+.section-description__icon-box img {
+    margin-right: 76px;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img:last-child {
+    margin-right: 0px;
+}    
+
+
+.section-description__title{
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+
+
+
+.section-description__title span {
+    color: #F15B40;
+}
+
+.section-description__text {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.section-map__title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.map {
+    display: block;
+    margin: 0 auto;
+}
