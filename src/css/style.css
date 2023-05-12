@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Instrument+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Instrument+Serif&display=swap");
 
 * {
   margin: 0;
@@ -80,50 +80,50 @@ header nav ul li a {
 }
 
 .section-description__icon-box {
-    text-align: center;
+  text-align: center;
 }
 
 .section-description__icon-box img {
-    margin-right: 76px;
-    margin-bottom: 20px;
+  margin-right: 76px;
+  margin-bottom: 20px;
 }
 
 .section-description__icon-box img:last-child {
-    margin-right: 0px;
-}    
-
-
-.section-description__title{
-    font-size: 46px;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 20px;
+  margin-right: 0px;
 }
 
-
+.section-description__title {
+  font-size: 46px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 20px;
+}
 
 .section-description__title span {
-    color: #F15B40;
+  color: #f15b40;
 }
 
 .section-description__text {
-    font-size: 18px;
-    margin: 0px;
-    text-align: center;
-    width: 1000px;
-    margin: 0 auto;
-    text-align: justify;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
-
-.section-map__title{
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 36px;
+.section-map__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
 }
 
 .map {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
 }
