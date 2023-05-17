@@ -1,0 +1,8 @@
+
+$bgColor: #000;
+
+.block:not(.first){
+    background-color: $bgColor;
+    height: 200px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ozat</title>
+    <link rel="stylesheet" href="/taskOzat/style/style.css" />
+  </head>
+  <body>
+    <h1>Сөздерді сәйкестендіру</h1>
+    <p>Бірінші бағандағы сөздерді екінші бағанмен сәйкестендір</p>
+    <p>Бірінші бағандағы сөзді екінші бағандағы сөздің үстіне таста</p>
+
+    <main class="container">
+      <div>
+        <ul class="draggable-list" id="eng-dl">
+          <li id="e1" draggable="true">Black</li>
+          <li id="e2" draggable="true">White</li>
+          <li id="e3" draggable="true">Blue</li>
+          <li id="e4" draggable="true">Yellow</li>
+          <li id="e5" draggable="true">Green</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="draggable-list" id="spa-dl">
+          <li id="s2" draggable="true">Ақ</li>
+          <li id="s5" draggable="true">Жасыл</li>
+          <li id="s1" draggable="true">Қара</li>
+          <li id="s3" draggable="true">Көк</li>
+          <li id="s4" draggable="true">Сары</li>
+        </ul>
+      </div>
+    </main>
+
+    <div id="matchMessage">
+      <img src="/taskOzat/img/correct.png" alt="Correct icon" />
+    </div>
+
+    <div id="notmatchMessage">
+      <img src="/taskOzat/img/icons8-incorrect-64.png" alt="Incorrect icon" />
+    </div>
+
+    <div id="endMessage">
+      <h3>Тамаша!</h3>
+      <h3>Жарайсың</h3>
+      <table>
+        <tr>
+          <th>Colors</th>
+          <th>Түстер</th>
+        </tr>
+        <tr>
+          <td>Black</td>
+          <td>Қара</td>
+        </tr>
+        <tr>
+          <td>White</td>
+          <td>Ақ</td>
+        </tr>
+        <tr>
+          <td>Blue</td>
+          <td>Көк</td>
+        </tr>
+        <tr>
+          <td>Yellow</td>
+          <td>Сары</td>
+        </tr>
+        <tr>
+          <td>Green</td>
+          <td>Жасыл</td>
+        </tr>
+      </table>
+
+      <button onclick="playAgain()">Қайтадан ойнау</button>
+    </div>
+
+    <script src="/taskOzat/js/script.js"></script>
+  </body>
+</html>
