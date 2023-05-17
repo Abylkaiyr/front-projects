@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  margin: 40px;
+  box-sizing: border-box;
+  background-color: #34495e;
+}
+
+header {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+}
+
+.header-text {
+  font-family: "Press Start 2P", cursive;
+}
+
+.header-author {
+  font-family: "Bruno Ace SC", cursive;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-author:hover {
+  background-color: #c4c1e0;
+}
+
+main {
+  background-color: #f0ece2;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.drop-zone .drop-items {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.dropZoneItem {
+  border: 2px dotted black;
+  width: 300px;
+  text-align: start;
+
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 10px; */
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dragItems {
+  border: 1px solid black;
+  width: 150px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.dragItem--active {
+  opacity: 0.5;
+}
+
+.dropZone--active {
+  border: 2px dotted blue;
+}
+
+footer {
+  background-color: yellow;
+  height: 100px;  
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-height: 100px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+}
+
+
