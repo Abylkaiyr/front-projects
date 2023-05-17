@@ -132,7 +132,8 @@ function count() {
     var div = document.createElement("div");
     div.setAttribute("id", "myDiv");
     div.textContent = countCorrect;
-    element.appendChild(div);
+    const btn2 = document.getElementById("btn2");
+    element.insertBefore(div, btn2);
     console.log("here1");
   }
 }

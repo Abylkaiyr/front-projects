@@ -84,17 +84,19 @@ main {
 
 footer {
   background-color: yellow;
-  height: 100px;  
+  height: 100px;
 }
 
 #footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  max-height: 100px;
+  margin-top: 10px;
+  padding: 20px;
+  max-height: 200px;
 }
 
 button {
@@ -102,4 +104,31 @@ button {
   height: 30px;
 }
 
+#myDiv {
+  border: 2px dotted red;
+  border-radius: 50%;
+  padding: 10px;
+}
 
+.button {
+  display: inline-block;
+
+  background-color: #4caf50;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
