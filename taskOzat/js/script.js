@@ -1,14 +1,13 @@
 let draggableListItems = document.querySelectorAll(".draggable-list li");
 const endMessage = document.getElementById("endMessage");
+
 let selectedId;
 let dropTargetId;
 let matchingCounter = 0;
 
-// // Experiment
-// let initialY;
-// let offsetY;
-
 addEventListeners();
+
+
 function dragStart() {
   selectedId = this.id;
 }
@@ -58,10 +57,6 @@ function AnimateCorrect() {
 function AnimateInCorrect() {
   document.getElementById("notmatchMessage").style.display = "none";
 }
-
-// function checkTest(selected, dropTarget){
-
-// }
 
 function checkForMatch(selected, dropTarget) {
   switch (selected) {
